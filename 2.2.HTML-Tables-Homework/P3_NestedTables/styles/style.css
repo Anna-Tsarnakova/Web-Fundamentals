@@ -1,0 +1,16 @@
+body{
+    font-family: Tahoma, sans-serif;
+}
+table, th, td{
+    border: solid 1px;
+}
+img{
+    padding: 5px;
+}
+.inner-table{
+    margin: 5px;
+}
+.inner-data{
+    font-size: 50px;
+    padding: 10px;
+}

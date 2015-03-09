@@ -1,0 +1,50 @@
+body{
+    font-family: Tahoma, sans-serif;
+}
+#wrapper, section, h2, h4, audio, video, embed, img, figure, meter, p{
+    margin: 0 auto;
+    padding: 0;
+}
+#wrapper{
+    background: #ffc0cb;
+    border-radius: 8px;
+    width: 840px;
+    padding: 20px;
+}
+header{
+    text-align: center;
+}
+section {
+    display: inline-block;
+    vertical-align: top;
+    margin: 3px;
+}
+#user{
+    margin: 0;
+    width: 200px;
+}
+#audio{
+    width: 295px;
+}
+
+h2{
+    margin: 2px;
+}
+h4{
+    margin: 3px;
+}
+
+audio{
+    display: inline-block;
+}
+video{
+    padding-left: 2px;
+}
+img{
+    width: 200px;
+}
+meter{
+    width: 160px;
+    height: 25px;
+    padding-top: 5px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <canvas id="myCanvas" width="240" height="260"
+            style="border:3px dotted #FF0000;">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+    <script>
+
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+
+        ctx.font = "30px Tahoma";
+        ctx.fillText("I love JavaScript",10,50);
+
+        ctx.fillStyle = "#F1D34E";
+        ctx.fillRect(48,80,134,130);
+
+        ctx.fillStyle = "#000000";
+        ctx.font = "900 90px Tw Cen Mt";
+        ctx.fillText("JS", 95, 200);
+    </script>
+</body>
+</html>

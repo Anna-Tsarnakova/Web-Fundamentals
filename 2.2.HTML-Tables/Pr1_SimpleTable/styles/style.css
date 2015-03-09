@@ -1,0 +1,22 @@
+body{
+    font-family: Tahoma, sans-serif;
+}
+table{
+    width: 400px;
+}
+div{
+    padding-left: 10px;
+}
+.header{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.bold-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.text{
+    font-size: 16px;
+}

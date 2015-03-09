@@ -1,0 +1,42 @@
+
+table{
+    border: solid 1px black;
+/*    background-color: #6d6d6d; */
+    background-image: url("../images/metal.jpg");
+    border-spacing: 0px;
+    width: 425px;
+    padding: 20px;
+    border-radius: 25px;
+}
+th{
+    padding-bottom: 20px;
+}
+th input{
+    font-size: 50px;
+    text-align: right;
+    height: 80px;
+    width: 360px;
+    padding: 4px 4px 4px 4px;
+    color: #08ff7e;
+}
+td input{
+    font-size: 35px;
+    height: 70px;
+    width: 90px;
+}
+input{
+    background-color: black;
+    color: #9b9b9b;
+    border-color: #6d6d6d;
+    border-radius: 25px;
+}
+.func{
+    color: orangered;
+}
+.clear{
+    color: #7dcae6;
+}
+input:hover{
+    cursor: pointer;
+    outline: none;
+}

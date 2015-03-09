@@ -1,0 +1,115 @@
+body{
+    font-family: Tahoma, sans-serif;
+}
+#wrapper{
+    margin: 10px auto;
+    width: 830px;
+    height: 520px;
+    background-color: #3b5997;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+h1{
+    font-size: 100px;
+    margin: 0;
+}
+h1 span{
+    font-size: 15px;
+}
+h3{
+    font-size: 30px;
+    margin: 0 0 5px 0;
+}
+fieldset{
+    display: inline-block;
+    border-radius: 5px;
+    vertical-align: top;
+    margin: 15px;
+    height: 220px;
+}
+legend, label{
+    font-size: 12px;
+}
+legend{
+    text-align: center;
+}
+input, textarea, select {
+    border-radius: 4px;
+}
+.none-important{
+    width: 278px;
+}
+.none-important input{
+    width: 120px;
+    height: 22px;
+    margin: 3px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.none-important input[type="datetime-local"]{
+    width: 200px;
+    height: 25px;
+}
+.none-important input[type="radio"]{
+    width: 15px;
+    vertical-align: middle;
+}
+.inline{
+    display: inline;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.important{
+    width: 426px;
+}
+.important input{
+    width: 120px;
+    height: 22px;
+    margin: 3px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.important select{
+    width: 130px;
+    height: 28px;
+    margin: 3px;
+    font-size: 12px;
+}
+.important input[type="number"]{
+    width: 60px;
+    height: 22px;
+    margin: 3px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.important input[type="color"]{
+    width: 130px;
+    height: 28px;
+    margin: 3px;
+    vertical-align: bottom;
+}
+.important textarea{
+    width: 410px;
+}
+.button-clear{
+    height: 50px;
+    color: #334F96;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    width: 302px;
+}
+.button-register{
+    height: 50px;
+    color: #334F96;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    width: 456px;
+}

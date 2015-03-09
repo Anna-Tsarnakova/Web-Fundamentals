@@ -1,0 +1,124 @@
+body{
+    font-family: Tahoma, sans-serif;
+}
+#wrapper{
+    background: url(../images/formBackground.jpg);
+    width: 370px;
+    height: 630px;
+    border-radius: 8px;
+    margin: 10px auto;
+}
+
+fieldset{
+    font-size: 13px;
+    border: none;
+    padding: 1px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+legend{
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+div{
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    height: 20px;
+    padding: 7px;
+    margin: 2px;
+}
+label {
+    display: inline-block;
+    height: 20px;
+    width: 100px;
+    vertical-align: top;
+    padding-left: 2px;
+}
+input {
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    height: 18px;
+    width: 170px;
+    padding-left: 5px;
+    vertical-align: top;
+}
+div input:focus {
+    background: #e8e8e8;
+    border-color: #eaeaea;
+}
+
+#address {
+    height: 90px;
+}
+#address label {
+    display: inline-block;
+    vertical-align: top;
+}
+textarea {
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    width: 173px;
+    height: 80px;
+    padding-right: 0;
+}
+textarea:focus {
+    background: #e8e8e8;
+    border-color: #eaeaea;
+}
+#card {
+    height: 50px;
+}
+#card>label {
+    display: inline-block;
+    height: 20px;
+    width: 60px;
+    padding-left: 2px;
+}
+#card-type {
+    border: none;
+    background: none;
+    padding: 3px;
+}
+#card-type input {
+    height: 20px;
+    width: 10px;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+}
+#card-type label {
+    height: 20px;
+    width: 38px;
+    vertical-align: top;
+    margin-top: 4px;
+    padding-left: 26px;
+    cursor: pointer;
+}
+#card-type label:nth-child(2) {
+    background: url(../images/visa.png) no-repeat;
+}
+#card-type label:nth-child(4) {
+    background: url(../images/amex.png) no-repeat;
+}
+#card-type label:nth-child(6) {
+    background: url(../images/mastercard.png) no-repeat;
+}
+
+#submit {
+    background: #04152F;
+    border-color: #04152F;
+    border-radius: 30px;
+    color: #ffffff;
+    height: 30px;
+    width: 100px;
+    margin: 5px 130px;
+    padding: 0;
+    outline: none;
+}
+#submit:hover {
+    cursor: pointer;
+    background-color: #00478d;
+}

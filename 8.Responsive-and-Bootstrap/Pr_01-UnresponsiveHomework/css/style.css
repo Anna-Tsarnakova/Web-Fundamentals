@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #6698ff;
+    font-family: Arial, sans-serif;
+}
+#wrapper {
+    font-size: 18px;
+    overflow: auto;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#wrapper > header > h1{
+    overflow: auto;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000000;
+}
+#wrapper > header > h1 > a{
+    text-decoration: none;
+    color: white;
+}
+#wrapper > header > h1 img {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 30%;
+    max-width: 250px;
+    margin: 5px 0 5px 5px;
+}
+#wrapper > header > h1 > span {
+    display: inline-block;
+    vertical-align: bottom;
+}
+#wrapper > header > nav{
+    width: 100%;
+    margin-top: -25px;
+}
+#wrapper > header > nav > ul{
+    float: right;
+    margin-right: 6px;
+}
+#wrapper > header > nav > ul > li{
+    display: inline-block;
+    border: 1px solid black;
+    background-color: white;
+    list-style: none;
+    padding: 3px 7px;
+    margin: 10px 3px 6px 0px;
+    font-size: 16px;
+}
+#wrapper > header > nav > ul > li a{
+    text-decoration: none;
+    color: black;
+}
+article, aside ul, footer {
+    background: #E0EAFE;
+    border: 1px solid #000000;
+}
+section{
+    float: left;
+    width: 73%;
+}
+section > article{
+    border: 1px solid black;
+    background-color: #E0EAFE;
+    font-weight: normal;
+    margin: 10px 0;
+    padding: 8px;
+    vertical-align: top;
+}
+section > article > header > h1{
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 10px 0;
+    white-space: normal;
+    font-size: 22px;
+}
+
+section > article > div > p{
+    text-align: justify;
+    white-space: normal;
+    font-size: 16px;
+    text-indent: 20px;
+}
+
+aside {
+    width: 25%;
+    float: right;
+    vertical-align: top;
+    margin-top: 10px;
+}
+aside > div > ul {
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+}
+aside > div > ul > li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+aside > div > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    overflow: auto;
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+footer h2 {
+    text-align: center;
+    line-height: 16px;
+    font-size: 16px;
+    padding-top: 16px;
+    margin: 10px;
+}
+@media screen and (min-width: 960px) {
+    #wrapper{
+        width: 85%;
+    }
+}
+@media screen and (min-width: 780px) and (max-width: 960px){
+    #wrapper{
+        width: 99%;
+        white-space: normal;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 780px){
+    #wrapper{
+        width: 99%;
+        white-space: normal;
+    }
+    section {
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+        margin: 0 0 8px 0;
+    }
+    aside li{
+        width: 23%;
+        display: inline-block;
+        text-align: center;
+        vertical-align: top;
+    }
+}
+@media screen and (max-width: 640px){
+    #wrapper{
+        width: 99%;
+        white-space: normal;
+    }
+    section {
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+        margin: 0 0 8px 0;
+    }
+    aside li{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        vertical-align: top;
+    }
+    #wrapper > header > nav > ul{
+        float: none;
+        margin-left: 10%;
+    }
+    #wrapper > header > nav > ul > li {
+        margin: 0;
+        width: 90%;
+        display: inline-block;
+        text-align: center;
+        vertical-align: top;
+        float: none;
+    }
+    #wrapper>header h1 {
+        text-align: center;
+        margin: 0 auto;
+    }
+    #wrapper>header h1 img {
+        float: none;
+        width: 300px;
+        display: block;
+        max-width: 70%;
+        margin: auto;
+    }
+    #wrapper>header h1 span {
+        padding-top: 0;
+        float: none;
+    }
+    #wrapper > header > h1 > span{
+        float: none;
+        display: block;
+        font-size: medium;
+    }
+    section > article > header > h1{
+        text-align: center;
+    }
+    footer{
+        margin-top: 3%;
+    }
+
+}

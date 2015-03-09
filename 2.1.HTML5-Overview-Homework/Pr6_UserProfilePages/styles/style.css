@@ -1,0 +1,18 @@
+body{
+    background-color: #add8e6;
+}
+hr{
+    height: 3px;
+    color: lightgray;
+}
+img{
+    border: 1px solid;
+    width: 150px;
+    height: 120px;
+}
+.bold-text{
+    font-weight: bold;
+}
+.italic-text{
+    font-style: italic;
+}

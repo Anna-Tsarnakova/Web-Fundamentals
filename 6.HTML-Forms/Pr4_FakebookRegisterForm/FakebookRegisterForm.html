@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Fakebook Register Form</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <form>
+                <header>
+                    <h1>fakebook<span> &reg;</span></h1>
+                    <h3>Registration</h3>
+                    <div>It is safe and it will always be!</div>
+                </header>
+                <fieldset class="none-important">
+                    <legend>None-Important Information</legend>
+                    <div>
+                        <input type="text" name="first-name" placeholder="First Name"/>
+                        <input type="text" name="last-name" placeholder="Last Name"/>
+                    </div>
+                    <div>
+                        <input type="email" name="email" placeholder="Your Email"/>
+                        <input type="tel" name="tel" placeholder="Phone Number"/>
+                    </div>
+                    <div>
+                        <input type="password" name="password" placeholder="Password"/>
+                        <input type="URL" name="website" placeholder="Website"/>
+                    </div>
+                    <div>
+                        <div><label for="Birthday">Birthday</label></div>
+                        <input id="Birthday" name="Birthday" type="datetime-local"/>
+                    </div>
+                    <div>
+                        <input id="female" name="gender" type="radio" value="female"/>
+                        <label for="female" class="inline">Female</label>
+                        <input id="male" name="gender" type="radio" value="male"/>
+                        <label for="male" class="inline">Male</label>
+                        <input id="other" name="gender" type="radio" value="other" checked/>
+                        <label for="other" class="inline">Other</label>
+                    </div>
+                </fieldset>
+                <fieldset class="important">
+                    <legend>Important Information *required</legend>
+                    <div>
+                        <select name="country">
+                            <option>Country</option>
+                            <option value="Bulgaria">Bulgaria</option>
+                            <option value="England">England</option>
+                            <option value="France">France</option>
+                        </select>
+                        <input type="text" name="village" placeholder="Village" required>
+                        <input type="text" name="district" placeholder="District" required>
+                    </div>
+                    <div>
+                        <input type="text" name="street" placeholder="Street" required>
+                        <span class="address">
+                        <input type="number" name="nr" placeholder="Nr" min="1" max="300" required>
+                        <input type="number" name="floor" placeholder="Floor" min="0" max="300" required>
+                        <input type="number" name="apN" placeholder="Ap Nr" min="0" max="300" required>
+                        </span>
+                    </div>
+                    <div>
+                        <div><label for="door-color">Door Color</label></div>
+                        <input id="door-color" type="color" name="door-color" value="#FFC0CB">
+                        <input type="text" name="water-meter" placeholder="Water Meter Nr" required>
+                        <select name="auntPS">
+                            <option>Aunt Panties' Size</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                    </div>
+                    <div><label>More Personal Information</label></div>
+                    <textarea name="more-info" placeholder="Give Us More Information!!!" required></textarea>
+                </fieldset>
+                <div>
+                    <input class="button-clear" type="reset" value="Clear Form">
+                    <input class="button-register" type="submit" value="Register">
+                </div>
+            </form>
+         </div>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+body{
+    font-family: Tahoma, sans-serif;
+}
+#wrapper{
+    width: 455px;
+    height: 310px;
+    background-color: pink;
+    margin: 0px auto;
+}
+h2{
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    padding-top: 15px;
+}
+form>div{
+    display: inline-block;
+    vertical-align: top;
+    width: 210px;
+    height: 230px;
+    margin: 0 0 0 10px;
+}
+label{
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+form select{
+    width: 210px;
+    height: 20px;
+}
+select#from-city{
+    margin-bottom: 22px;
+}
+form>div>input[type="date"]{
+    width: 204px;
+    height: 20px;
+}
+form>div>label, .time-interval>label, .range>div>label, .choose-class>label{
+    font-style: italic;
+    display: block;
+    font-size: 12px
+}
+.range>div{
+    display: inline-block;
+}
+
+label[for="check-directs"]{
+    display: inline-block;
+    font-size: 12px;
+    font-style: italic;
+}
+input[type="number"] {
+    width: 50px;
+}
+input[type="time"] {
+    width: 96px;
+    height: 20px;
+    display: inline;
+}
+input[type="submit"] {
+    height: 30px;
+    width: 210px;
+    margin-top: 5px;
+    float: right;
+}

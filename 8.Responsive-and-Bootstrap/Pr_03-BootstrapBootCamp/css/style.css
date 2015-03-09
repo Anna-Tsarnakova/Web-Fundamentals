@@ -1,0 +1,46 @@
+#main-content {
+    margin-bottom: 20px;
+    padding: 5%;
+    font-size: 18px;
+    background-color: #A5FE9B;
+    border-radius: 5px;
+}
+#main-content p{
+    width: 90%;
+}
+.navbar {
+    border-radius: 0;
+}
+.navbar.navbar-default .navbar-nav > li > a, .navbar-header > .navbar-brand, .nav-pills > li > a {
+    color: black;
+}
+.nav-pills > li {
+    border: 1px solid rgba(128, 128, 128, 0.60);
+    margin: 0 !important;
+}
+.nav-pills > li:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.nav-pills > li:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.nav-pills > li:hover, .nav-pills > li:hover a, .navbar-default, button:hover, #header-content {
+    background-color: #41d4a5 !important;
+}
+#header-content, button {
+    margin-bottom: 20px !important;
+}
+.navbar-default {
+    border: none;
+    margin: 0;
+}
+.navbar-default ul li:hover {
+    background-color: #03e694;
+}
+
+footer p {
+    margin-top: 30px;
+    padding-left: 15px;
+}

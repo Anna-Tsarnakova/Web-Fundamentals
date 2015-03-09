@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Kent's Media Profile</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h2>Profile</h2>
+            </header>
+            <main>
+                <section id="user">
+                    <h4>User: Kent</h4>
+                    <figure>
+                        <img src="resources/images/kent.png">
+                        <figcaption>
+                            <p>Profile completed 60%</p>
+                            <meter value="60" min="0" max="100"></meter>
+                        </figcaption>
+                    </figure>
+                </section>
+                <section id="audio">
+                    <h4>Uploaded Audio Files</h4>
+                    <embed src="resources/horse.ogg" type="audio/ogg" autoplay="no"></embed>
+                    <audio controls>
+                        <source src="resources/horse.ogg" type="audio/ogg">
+                        Your browser does not support the &lt;audio&gt; tag.
+                    </audio>
+                    <audio controls>
+                        <source src="resources/horse.ogg" type="audio/ogg">
+                        Your browser does not support the &lt;audio&gt; tag.
+                    </audio>
+                    <audio controls>
+                        <source src="resources/horse.ogg" type="audio/ogg">
+                        Your browser does not support the &lt;audio&gt; tag.
+                    </audio>
+                </section>
+                <section  id="video">
+                    <h4>Uploaded Video Files</h4>
+                    <video controls>
+                        <source src="resources/movie.mp4" type="video/mp4" />
+                        <track kind="subtitles" src="resources/movie.vtt" srclang="en" label="English" />
+                        Your browser does not support the video tag.
+                    </video>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,96 @@
+#wrapper{
+    font-family: Tahoma, sans-serif;
+    color: #2E487B;
+    height: 700px;
+    margin: 30px auto;
+}
+div, button, input, input[type="range"] {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#products {
+    display: inline-block;
+    width: 620px;
+    float: left;
+    margin: 0;
+}
+h1 {
+    color: #2e4879;
+    font-weight: bold;
+    margin-top: 25px;
+}
+button {
+    background: none;
+    border: 2px solid #E8F5FC;
+    border-radius: 15px 15px 0 15px;
+    height: 212px;
+    width: 190px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+button:hover {
+    border-color: #2e4879;
+    cursor: pointer;
+}
+.laptop-description {
+    height: 210px;
+    width: 200px;
+    text-align: left;
+    margin: 13px 13px 0;
+}
+h2 {
+    color: #2e4879;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+p {
+    font-size: 13px;
+    margin: 0;
+}
+img {
+    height: 105px;
+    width: 155px;
+}
+.laptop-price {
+    background: #2C425A;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    border-top-left-radius: 15px;
+    height: 35px;
+    width: 100px;
+    margin-left: 72px;
+    padding: 10px;
+}
+
+#filters {
+    background: #F7FCFF;
+    border: 1px solid #E8F5FC;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    padding: 0 5px;
+    margin-top: 25px;
+}
+label {
+    display: block;
+    height: 25px;
+}
+
+span:first-child {
+    display: inline-block;
+    text-align: left;
+    float: left;
+}
+span:last-child {
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+input[type="range"] {
+     height: 36px;
+     width: 200px;
+ }

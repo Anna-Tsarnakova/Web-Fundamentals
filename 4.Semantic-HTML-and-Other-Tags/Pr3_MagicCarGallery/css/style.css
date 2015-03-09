@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+#wrapper{
+    background-color: black;
+    border-radius: 10px;
+    width: 550px;
+    margin: 0 auto;
+}
+header{
+    color: #f1c006;
+    text-align: center;
+    padding-top: 1px;
+}
+iframe {
+    border-color: #f1c006;
+    margin: 0px 0px 20px 20px;
+}
+img{
+    width: 225px;
+    height: 150px;
+    vertical-align: middle;
+}
+ul {
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+    font-size: 22px;
+    font-style: italic;
+    margin: 0;
+    padding-left: 20px;
+}
+    ul li{
+        line-height: 32px;
+    }
+    ul a {
+        text-decoration: none;
+        color: white;
+    }

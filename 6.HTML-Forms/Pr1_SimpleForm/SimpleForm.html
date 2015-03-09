@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Simple Form</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <h2>Enter the system</h2>
+            <p>It is necessary to login in Your account in order to sign in for a course.</p>
+            <form id="contact-form" method="post">
+                <h5><span class="grey"> Are you new? </span>Register</h5>
+                <label for="username-register">
+                    <input type="text" name="username" id="username-register" pattern="^[a-zA-Z]([/._]?[a-zA-Z0-9]+)+$" placeholder="User name" title="Please enter a valid username." required="true"/>
+                </label>
+                <label for="email">
+                    <input type="email" name="email" id="email" pattern="^[A-Za-z0-9]+[\._A-Za-z0-9-]+@([A-Za-z0-9]+[-\.]?[A-Za-z0-9]+)+(\.[A-Za-z0-9]+[-\.]?[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$" title="Please enter a valid email address." placeholder="Email" required="true"/>
+                </label>
+                <label for="password-register">
+                    <input type="password" name="password" id="password-register" placeholder="Password" title="Please enter your password." required="true"/>
+                </label>
+                <label for="password-confirm-register">
+                    <input type="password" name="password" id="password-confirm-register"  placeholder="Confirm Password" title="Please confirm your password." required="true"/>
+                </label>
+                <input id="buttonRegister" type="submit" value="Register">
+            </form>
+
+            <form id="login-form" method="post">
+                <h5>Already a student? Login</h5>
+                <label for="username-login">
+                  <input type="text" name="username" id="username-login" pattern="^[a-zA-Z]([/._]?[a-zA-Z0-9]+)+$" placeholder="User name" title="Please enter a valid username." required="true"/>
+                </label>
+                <label for="password-login">
+                  <input type="password" name="password" id="password-login" placeholder="Password" title="Please enter your password." required="true"/>
+                </label>
+                <div id="checkbox-login" class="checked">
+                  <input type="checkbox" name="loginRememberMe" id="login-checkbox" />
+                  <label for="login-checkbox">Remember me?</label>
+                </div>
+                <div>
+                  <input id="buttonLogin" type="submit" value="Login">
+                </div>
+                <div id="forgot-password">
+                    <a href="#">Forgot Password</a>
+                </div>
+            </form>
+         </div>
+    </body>
+</html>

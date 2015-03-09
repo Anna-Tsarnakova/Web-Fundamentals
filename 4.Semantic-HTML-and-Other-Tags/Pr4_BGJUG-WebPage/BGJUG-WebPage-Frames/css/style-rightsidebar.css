@@ -1,0 +1,9 @@
+body{
+    font-family: Calibri, sans-serif;
+    color: gray;
+    margin-left: 0px;
+    margin-right: 50px;
+}
+select{
+   margin-bottom: 40px;
+}

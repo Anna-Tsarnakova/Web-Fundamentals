@@ -1,0 +1,101 @@
+#wrapper{
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    height: 140px;
+    width: 515px;
+    margin: 10px auto;
+}
+#form{
+    border-top: 5px dotted yellow;
+    border-right: 10px solid green;
+    border-bottom: 7px double blue;
+    border-left: 5px dashed red;
+    box-shadow: 15px 15px 10px #3f3f3f;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    text-shadow: 11px 9px 9px gray;
+    vertical-align: top;
+    margin-top: 12px;
+
+    text-align: center;
+}
+#text-fields{
+    border: 2px solid #ff0000;
+    border-radius: 50px;
+    box-shadow: 0 0 0 2px yellow, 0 0 0 4px green, 0 0 0 6px blue;
+    height: 80px;
+    width: 450px;
+    text-align: center;
+    margin: auto auto 30px auto;
+}
+#text-fields p{
+    font-weight: normal;
+    font-size: 17px;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    text-align: center;
+    text-shadow: 12px 10px 12px gray;
+    vertical-align: top;
+}
+#text-fields input{
+    background-color: #d8921a;
+    text-align: center;
+    height: 16px;
+    width: 154px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 3px solid #ffa500;
+    border-right-color: #a56400;
+    border-bottom-color: #a56400;
+}
+#text-fields input:hover{
+    cursor: pointer;
+    background-color: #a56400;
+}
+#big-bubble{
+    background-color: rgba(158, 158, 158, 0.8);
+    border: 2px dashed white;
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+    box-shadow: 0 0 0 4px rgba(158, 158, 158, 0.8);
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 470px;
+
+}
+#big-bubble p{
+    color: white;
+    text-align: center;
+    vert-align: top;
+    padding-top: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#middle-bubble{
+    background-color: rgba(158, 158, 158, 0.8);
+    border: 2px dashed white;
+    border-radius: 22px;
+    height: 22px;
+    width: 22px;
+    box-shadow: 0 0 0 4px rgba(158, 158, 158, 0.8);
+    position: absolute;
+    margin-top: 76px;
+    margin-left: 430px;
+}
+#small-bubble{
+    background-color: rgba(158, 158, 158, 0.8);
+    border: 2px dashed #ffffff;
+    border-radius: 12px;
+    height: 12px;
+    width: 12px;
+    box-shadow: 0 0 0 4px rgba(158, 158, 158, 0.8);
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 394px;
+}

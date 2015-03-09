@@ -1,0 +1,17 @@
+body{
+    font-family: Calibri, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+div{
+    padding-bottom: 10px;
+}
+div a{
+    text-decoration: none;
+    color: #4278b9;
+    height: 50px;
+}
+
+aside{
+    width: 160px;
+}

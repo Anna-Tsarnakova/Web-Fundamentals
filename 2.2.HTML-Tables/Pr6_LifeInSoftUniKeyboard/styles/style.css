@@ -1,0 +1,37 @@
+body{
+    font-family: Calibri, sans-serif;
+    width: 450px;
+}
+table, td{
+    border: solid 2px #6d6d6d;
+    border-spacing: 1px;
+}
+input{
+    color: #0d1cc4;
+    height: 80px;
+    width: 98%;
+    margin: 2px auto;
+    display: block;
+}
+#first-button{
+    font-size: 26px;
+}
+.buttons{
+    font-size: 18px;
+}
+.nested-buttons{
+    font-size: 16px;
+    height: 35px;
+}
+#beer-button{
+    font-size: 30px;
+    text-align: right;
+}
+
+#nested-table, #nested-table td  {
+    border: none;
+}
+
+input:hover {
+    cursor: pointer;
+}

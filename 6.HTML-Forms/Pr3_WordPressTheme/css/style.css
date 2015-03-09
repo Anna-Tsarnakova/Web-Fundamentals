@@ -1,0 +1,16 @@
+
+#wrapper{
+    margin: 0px auto;
+}
+.button{
+    vertical-align: middle;
+}
+.search{
+    margin-top: 20px;
+}
+.search>label{
+    vertical-align: bottom;
+}
+.search>input{
+    height: 20px;
+}

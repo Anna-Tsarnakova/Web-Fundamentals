@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    font-family: "Arial Narrow", Calibri, sans-serif;
+}
+#wrapper{
+    background-color: #00923e;
+    width: 630px;
+    height: 210px;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+table{
+    border-radius: 10px;
+    width: 630px;
+    height: 210px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+table, th, td{
+    border: solid 1px black;
+    border-spacing: 0;
+}
+tr{
+    height: 30px;
+}
+
+th{
+    background: #f8c711;
+    font-size: 20px;
+    padding: 3px;
+}
+th:first-child{
+    border-radius: 10px 0 0 0;
+    text-align: right;
+}
+th:nth-child(3){
+    text-align: left;
+}
+th:last-child{
+    border-radius: 0 10px 0 0;
+}
+tr:last-child td:first-child{
+    border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child{
+    border-radius: 0 0 10px 0;
+}
+td{
+    padding: 3px;
+}
+td:nth-child(1){
+    text-align: right;
+    width: 102px;
+}
+td:nth-child(2){
+    text-align: center;
+    width: 30px;
+}
+td:nth-child(3){
+    text-align: left;
+    width: 102px;
+}
+td:nth-child(4){
+    text-align: center;
+    width: 30px;
+}
+td:nth-child(5){
+    text-align: right;
+    width: 80px;
+}
+td:nth-child(6){
+    text-align: center;
+    width: 80px;
+}
+td:nth-child(7){
+    text-align: left;
+    width: 80px;
+}
+td:nth-child(8){
+    text-align: center;
+    width: 20px;
+}
+
+tr:nth-child(odd) td{
+    background-color: #FFFFFF;
+}
+tr:nth-child(even) td{
+    background-color: #c8c8c8;
+}
+
+tr:nth-child(1) td:nth-child(1) .flags:after {
+    content: url(../images/brasil.png);
+    float: right;
+    margin-left: 3px;
+    margin-top: 3px;
+
+}
+tr:nth-child(1) td:nth-child(3) .flags:before {
+    content: url(../images/mexico.png);
+    float: left;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+tr:nth-child(2) td:nth-child(1) .flags::after {
+    content: url(../images/spain.png);
+    float: right;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+tr:nth-child(2) td:nth-child(3) .flags:before {
+    content: url(../images/netherlands.png);
+    float: left;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+tr:nth-child(3) td:nth-child(1) .flags:after {
+    content: url(../images/italy.png);
+    float: right;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+tr:nth-child(3) td:nth-child(3) .flags:before {
+    content: url(../images/england.png);
+    float: left;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+tr:nth-child(4) td:nth-child(1) .flags:after {
+    content: url(../images/argentina.png);
+    float: right;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+tr:nth-child(4) td:nth-child(3) .flags:before {
+    content: url(../images/bosnia-herz.png);
+    float: left;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+tr:nth-child(5) td:nth-child(1) .flags:after {
+    content: url(../images/germany.png);
+    float: right;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+tr:nth-child(5) td:nth-child(3) .flags:before {
+    content: url(../images/portugal.png);
+    float: left;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+
+select:disabled {
+    background-color: #DCDCDC;
+    color: #F04B33;
+    text-align: left;
+    padding: 0;
+}
+select {
+    color: #00923e;
+    height: 22px;
+    width: 35px;
+    text-align: left;
+    font-size: 10px;
+    padding: 0;
+}
+input[type = button]{
+    border-radius: 100%;
+    color: white;
+    height: 25px;
+    width: 25px;
+    font-size: 8px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+}
+.red{
+    background:red;
+}
+.green{
+    background:green;
+}

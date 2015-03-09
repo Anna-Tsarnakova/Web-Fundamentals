@@ -1,0 +1,98 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    margin: 0 auto;
+    background-color: #c2c0bf;
+}
+section {
+    display: block;
+    width: auto;
+    min-width: 960px;
+    height: 350px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+section > header {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+a {
+    text-decoration: none;
+}
+header > a {
+    text-transform: uppercase;
+    color: #224364;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+footer {
+    color: #9d9b9a;
+    position: relative;
+    bottom: 0;
+    font-size: 10px;
+}
+time {
+    color: #224364;
+    display: block;
+    text-align: right;
+    padding-top: 10px;
+}
+figure {
+    margin: 15px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+figcaption {
+    color: #858c87;
+    height: 45px;
+    margin-top: 15px;
+}
+address {
+    font-style: normal;
+    color: #858c87;
+    padding-top: 10px;
+}
+article {
+    float: left;
+    width: 250px;
+    height: 310px;
+    padding: 25px;
+    margin: 0 20px 0 0;
+    background-color: white;
+    border: 1px solid #c2c0bf;;
+    box-shadow: 0 2px 2px #9d9b9a;
+}
+span.bold {
+    font-weight: bold;
+    color: #565552;
+}
+nav{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+nav > ul {
+    margin: 0;
+    padding: 0;
+}
+nav > ul > li {
+    display: inline-block;
+    background-color: #4ca0db;
+    padding: 10px;
+}
+nav > ul > li:hover {
+    background-color: #ff9c00;
+    cursor: pointer;
+}
+nav > ul > li > a {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+article > header {
+    height: 28px;
+}
+a:hover > figure > figcaption {
+    text-decoration: underline;
+}

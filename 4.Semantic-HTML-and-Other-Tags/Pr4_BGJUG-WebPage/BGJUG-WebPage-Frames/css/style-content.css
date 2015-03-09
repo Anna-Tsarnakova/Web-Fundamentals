@@ -1,0 +1,24 @@
+body{
+    font-family: Tahoma, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h1{
+    margin: 0;
+}
+span{
+    color: gray;
+    font-size: 12px;
+}
+a.user, a.comment{
+    color: gray;
+    letter-spacing: 2px;
+}
+a.continue-text, a.previous-entries{
+    color: #4278b9;
+    text-decoration: none;
+}
+p{
+    line-height: 30px;
+    width: 500px;
+}

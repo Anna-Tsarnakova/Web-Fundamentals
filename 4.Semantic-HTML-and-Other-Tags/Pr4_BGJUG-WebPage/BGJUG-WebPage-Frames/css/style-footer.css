@@ -1,0 +1,59 @@
+body{
+    font-family: Calibri, sans-serif;
+    color: white;
+}
+footer{
+    height: 250px;
+    background: black;
+}
+section{
+    height: 200px;
+    width: 180px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+
+}
+p{
+    color: #828282;
+}
+p span{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+h2{
+    display: block;
+    margin-left: 10px;
+}
+h3{
+    display: block;
+    margin: 0px;
+    padding: 0;
+
+}
+h4{
+    display: block;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+    padding: 0;
+}
+#twitter-message{
+    height: 50px;
+    background: #e8e8e8;
+    line-height: 50px;
+
+}
+#twitter-message span{
+    color: #858585;
+    margin-left: 30px;
+    font-style: italic;
+    font-size: 16px;
+    vertical-align: middle;
+}
+#text-overflow{
+    text-overflow: ellipsis;
+}

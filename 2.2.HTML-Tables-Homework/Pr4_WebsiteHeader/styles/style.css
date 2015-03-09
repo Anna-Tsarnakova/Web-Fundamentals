@@ -1,0 +1,105 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+table {
+    padding-top: 10px;
+    border-spacing: 0;
+    border: solid 1px;
+    width: 1170px;
+    margin: auto;
+}
+#wrapper {
+    height: 109px;
+    background: #234465;
+}
+#logo{
+    float: left;
+}
+#logo div{
+    height: 65px;
+    width: 255px;
+    background: url("../images/logo.png") no-repeat;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#user-menu {
+    line-height: 36px;
+    float: left;
+}
+#user-menu:hover {
+    cursor: pointer;
+    border-radius: 5px;
+}
+#user-menu ul {
+    display: inline-table;
+    vertical-align: bottom;
+    margin: 0;
+    padding: 0;
+}
+#user-menu>ul>li {
+    font-weight: bold;
+    padding: 0 10px;
+}
+#user-menu>ul>li:hover {
+    text-decoration: underline;
+}
+#notification-icon {
+    width: 20px;
+    height: 20px;
+    background: url(../images/notifications.png) no-repeat;
+    vertical-align: middle;
+    margin: 0;
+    display: inline-block;
+}
+#user-menu>ul>li:nth-child(2) a {
+    color: #FEA71E;
+}
+#user-menu ul li {
+    float: left;
+    display: block;
+}
+#user-menu ul li:hover {
+    outline: none;
+}
+#user-menu ul ul {
+    background: #234465;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: capitalize;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -2px;
+    padding: 0;
+    width: 300px;
+    z-index: 1000;
+    display: none;
+}
+#user-menu ul li:hover ul {
+    display: block;
+}
+#user-menu ul ul li {
+    border-bottom: 1px solid #575f6a;
+    position: relative;
+    float: none;
+}
+#user-menu ul ul li:last-child {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+#user-menu ul ul li a {
+    display: block;
+    padding: 0 10px;
+}
+#user-menu ul ul li a:hover {
+    background: #FF9C00;
+}

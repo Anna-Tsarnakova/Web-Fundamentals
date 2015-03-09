@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Flight Order</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <div id="wrapper">
+        <h2>Flight order</h2>
+            <form method="post">
+                <div>
+                    <label for="from-city">From</label>
+                    <select name="from-city" id="from-city">
+                        <option value="enter a city" selected>enter a city</option>
+                        <option value="Sofia">Sofia</option>
+                        <option value="Munich">Munich</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="London">London</option>
+                        <option value="Paris">Paris</option>
+                    </select>
+
+                    <label for="departure-date" id="departure-label">Departure Date</label>
+                    <input type="date" id="departure-date" />
+                    <label for="return-date" id="label-return">Return Date</label>
+                    <input type="date" id="return-date" />
+                    <div class="range">
+                        <div>
+                            <label for="range-12">12+</label>
+                            <input type="number" min="12" max="24" id="range-12" value="0" />
+                        </div>
+                        <div>
+                            <label for="range-2-12">2-12</label>
+                            <input type="number" min="2" max="12" id="range-2-12" value="0" />
+                        </div>
+                        <div>
+                            <label for="range-0-2">0-2</label>
+                            <input type="number" min="0" max="2" id="range-0-2" value="0" />
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <label for="to-city">To</label>
+                    <select name="to-city" id="to-city">
+                        <option value="enter a city" selected>enter a city</option>
+                        <option value="Sofia">Sofia</option>
+                        <option value="Munich">Munich</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="London">London</option>
+                        <option value="Paris">Paris</option>
+                    </select>
+                    <div>
+                        <input type="checkbox" id="check-directs" />
+                        <label for="check-directs">Prefer directs</label>
+                    </div>
+                    <div class="time-interval">
+                        <label for="departure-start-time">Time Interval</label>
+                        <input type="time" id="departure-start-time" value="00:20" />
+                        <input type="time" id="departure-end-time" value="05:00" />
+                    </div>
+                    <div class="time-interval">
+                        <label for="return-start-time">Time Interval</label>
+                        <input type="time" id="return-start-time" value="16:00" />
+                        <input type="time" id="return-end-time" value="22:00" />
+                    </div>
+                    <div class="choose-class">
+                        <label for="class" id="label-class">Choose class</label>
+                        <select name="class" id="class">
+                            <option value="economy">Economy</option>
+                            <option value="business">Business</option>
+                        </select>
+                    </div>
+
+                    <input type="submit" value="Search" />
+                </div>
+            </form>
+         </div>
+    </body>
+</html>
