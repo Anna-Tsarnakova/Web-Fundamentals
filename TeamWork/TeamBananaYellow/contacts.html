@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Banana Team</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/contacts.css" />
+        <link rel="stylesheet" type="text/css" href="css/header.css" />
+        <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header class="navbar-wrapper">
+                <div class="top-bar">
+                    <a class="logo" href="index.html"></a>
+                </div>
+                <div class="menuContainer">
+                    <nav class="navContainer">
+                        <label for="show-menu" class="show-menu">Меню</label>
+                        <input type="checkbox" id="show-menu"/>
+                        <ul id="menu">
+                            <li><a href="index.html">Начало</a></li>
+                            <li>
+                                <a href="#">Курсове <em class="caret"></em> </a>
+                                <ul class="hidden">
+                                    <li><a href="level-one.html">Ниво 1</a></li>
+                                    <li><a href="level-two.html">Ниво 2</a></li>
+                                    <li><a href="level-three.html">Ниво 3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="teachers.html">Злодеи</a></li>
+                            <li><a href="students.html">Студенти</a></li>
+                            <li><a href="fun.html">Развлечения</a></li>
+                            <li><a href="about.html">За нас</a></li>
+                            <li><a href="contacts.html">Контакти</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <div class="mainContainer">
+                    <h1>Контакти</h1>
+                    <p>
+                        Радваме се, че четете тази страница, което значи, че навярно имате нужда от нас по една или друга причина.
+                        За нас ще е удоволствие да обсъдим с вас идеите, които имате за вашия проект, а ние ще дадем компетентно мнение и предложение за изпълнението му.
+                        Стотици хора са се доверили на разработчиците от Банана Йелоу Юнивърсити.
+                        Успели сме да се докажем в пазарната ниша, в която единствено количеството банани са от значение.
+                        А ако искате и вие да се присъедините към нашия екип, може да кандидатствате за следващия сезон.
+                    </p>
+                    <p>
+                        Можете да ни намерите на посочения адрес на университета:
+                    </p>
+
+                    <div class="maps">
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5867.502814603631!2d23.353376820109798!3d42.666623105531635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa85cca4a719b7%3A0xdf53fcbcd8e758d7!2z0KHQvtGE0YLRg9C10YDQtdC9INGD0L3QuNCy0LXRgNGB0LjRgtC10YI!5e0!3m2!1sbg!2s!4v1425411107456" width="500" height="300" frameborder="0" style="border:0"></iframe>
+                    </div>
+                    <form action="#" method="post" class="contact-form">
+                        <h2>Контакт с нас</h2>
+                        <label>
+                            <span>Вашето име:</span>
+                            <input id="name" type="text" name="name" placeholder="Име" required="true" />
+                        </label>
+
+                        <label>
+                            <span>Имейл адрес:</span>
+                            <input id="email" type="email" name="email" placeholder="Имейл адрес" required="true"/>
+                        </label>
+
+                        <label>
+                            <span>Съобщение:</span>
+                            <textarea id="message" name="message" placeholder="Съобщение" required="true"></textarea>
+                        </label>
+                        <label>
+                            <span>&nbsp;</span>
+                            <input type="submit" class="button" value="Изпрати" />
+                        </label>
+                    </form>
+                </div>
+            </main>
+            <footer>
+                <section class="footer-wrapper">
+                    <article>
+                        <h4>Контакти</h4>
+                        <ul>
+                            <li><a href="https://github.com/Anna-Tsarnakova">Анна Църнакова</a></li>
+                            <li><a href="https://github.com/Kolimnared">Делчо Димитров</a></li>
+                            <li><a href="https://github.com/Pokahontas">Йоана Николова</a></li>
+                            <li><a href="https://github.com/PlamenaMiteva">Пламена Митрева</a></li>
+                        </ul>
+                    </article>
+                    <article id="validators">
+                        <a target="_blank" href="http://validator.w3.org/check?uri=http%3A%2F%2Fqts.zb5.net%2FTeamBananaYellow%2F&amp;charset=%28detect+automatically%29&amp;doctype=Inline&amp;group=0&amp;user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices"><img src="images/html-validator.png" alt="HTML validator"></a>
+                        <a target="_blank" href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fqts.zb5.net%2FTeamBananaYellow%2F"><img src="images/css-validator.png" alt="CSS validator"></a>
+                    </article>
+                </section>
+                <hr />
+                <div class="location">
+                    <a href="https://softuni.bg" target="_blank">
+                        <span>
+                           &#169; Banana Yellow University - Този проекта е направен за учебните цели на Software University
+                        </span>
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
